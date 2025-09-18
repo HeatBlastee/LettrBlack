@@ -41,8 +41,7 @@ export const handleOcrAndAI = async (
 
     return res.status(200).json({
       success: true,
-      extractedText,
-      aiAnswer,
+      doubt
     });
   } catch (error) {
     console.error(" OCR + AI error:", error);
