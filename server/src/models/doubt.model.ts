@@ -41,3 +41,4 @@ const DoubtSchema: Schema = new Schema<Doubts>(
 );
 
 export default mongoose.model<Doubts>("Doubts", DoubtSchema);
+
